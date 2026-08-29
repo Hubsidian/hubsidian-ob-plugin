@@ -1,0 +1,19 @@
+{
+  "name": "hubsidian-sync",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Obsidian plugin: sync a vault with hubsidian over WebDAV, authenticated via the server's own OAuth",
+  "type": "module",
+  "scripts": {
+    "build": "tsc --noEmit && node esbuild.config.mjs production",
+    "dev": "node esbuild.config.mjs",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/node": "^25.8.0",
+    "esbuild": "^0.25.0",
+    "obsidian": "^1.8.7",
+    "typescript": "^5.9.0",
+    "vitest": "^4.1.6"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "hubsidian-sync",
+  "name": "Hubsidian Sync",
+  "version": "0.1.0",
+  "minAppVersion": "1.4.0",
+  "description": "Sync this vault with your hubsidian server over WebDAV, signed in with the same OAuth account as your MCP clients.",
+  "author": "seiichi1101",
+  "authorUrl": "https://github.com/Hubsidian/hubsidian-ob-plugin",
+  "isDesktopOnly": false
+}
